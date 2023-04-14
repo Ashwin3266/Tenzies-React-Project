@@ -1,0 +1,119 @@
+body
+{
+    margin-top: 80px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: #0B2434;
+    font-family: Karla,sans-serif;
+}
+
+.main
+{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color:#F5F5F5;
+}
+
+.number-grid
+{
+    display: grid;
+    grid-template: auto auto / repeat(5, 1fr);
+    row-gap: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.number-grid p
+{
+    font-size: 30px;
+    font-weight: bold;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    height: 75px;
+    width: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number-grid p:hover
+{
+    cursor: pointer;
+}
+
+.number-grid p:active
+{
+    box-shadow:inset 1px 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.number-grid > div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selected
+{
+    background-color: #59E391;
+}
+
+.not-selected
+{
+    background-color: #FFFFFF;
+}
+
+.header
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header > h1
+{
+    margin:0;
+    margin-top:20px;
+}
+
+.header > p
+{
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+    overflow-wrap: break-word;
+}
+
+.button
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.button :hover
+{
+    cursor: pointer;
+}
+
+.button :active
+{
+    box-shadow:inset 1px 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.button > button
+{
+    background-color: #5035FF;
+    color: #FFFFFF;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+    border-style: none;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.15);
+} 
+
