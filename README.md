@@ -68,3 +68,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Description of the project
+  Have created a library managements system using google Books API . Got my own Google API crredential token and enabled it with Google Books . Created an interface with react that fetches atmost 40 books and images , author ,publisher of the book . Created a login page using which the user can login their Account .
